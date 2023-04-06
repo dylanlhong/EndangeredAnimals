@@ -1,0 +1,36 @@
+
+
+.gallery_causes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    row-gap: 5px;
+}
+
+.gallery_causes img {
+    width: 32%;
+    height: 200px;
+}
+
+@media screen and (min-width: 600px) {
+    .gallery_causes img {
+        width: 24%;
+        height: 225px;
+        row-gap: 10px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .gallery_causes img {
+        width: 24%;
+        height: 250px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .gallery_causes img {
+        width: 24%;
+        height: 325px;
+    }
+}
