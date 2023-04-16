@@ -1,4 +1,4 @@
-.active {
-    color: crimson;
+a.active {
+    color: red;
     text-decoration: none;
 }
