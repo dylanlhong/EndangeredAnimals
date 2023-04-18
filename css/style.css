@@ -26,3 +26,8 @@ Only there when it is focused on.*/
     top: 50px;
 }
 
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
