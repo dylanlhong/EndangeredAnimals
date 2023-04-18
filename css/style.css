@@ -1,3 +1,26 @@
+* {
+    background-color: #1fa859;
+}
+
+header {
+    background-color: #1fa8a3;
+    padding: 3%;
+}
+
+footer {
+    background-color: #1fa8a3;
+    padding: 1%;
+}
+
+h1 {
+    font-size:x-large;
+    padding: 1%;
+}
+
+p {
+    padding: 1%;
+}
+
 a.active {
     color: red;
     text-decoration: none;
@@ -5,7 +28,7 @@ a.active {
 
 /* used to have skip to content not on page when page is loaded.
 Only there when it is focused on.*/
-.outer {
+.header {
     overflow: hidden;
     position: relative;
 }
@@ -20,9 +43,9 @@ Only there when it is focused on.*/
 }
 
 .skip:focus {
-    height:auto;
+    height: auto;
     width: auto;
-    right: 100px;
+    right: 300px;
     top: 50px;
 }
 
