@@ -3,6 +3,26 @@ a.active {
     text-decoration: none;
 }
 
-.hidden {
-    display: none;
+/* used to have skip to content not on page when page is loaded.
+Only there when it is focused on.*/
+.outer {
+    overflow: hidden;
+    position: relative;
 }
+
+.skip {
+    background-color: dimgray;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    right: -100px;
+    top: 200px;
+}
+
+.skip:focus {
+    height:auto;
+    width: auto;
+    right: 100px;
+    top: 50px;
+}
+
