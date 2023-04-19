@@ -26,6 +26,6 @@ img {
 .info {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 50px 5px;
-    margin-bottom: 50px;
+    gap: 30px 30px;
+    padding-bottom: 5px;
 }

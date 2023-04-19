@@ -19,10 +19,12 @@ h1 {
 
 h2 {
     font-size: x-large;
+    text-align: center;
 }
 
 h3 {
     font-size: large;
+    text-align: center;
 }
 
 p {
