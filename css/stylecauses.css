@@ -1,36 +1,29 @@
-
+figure {
+    width: 75%;
+    height: 75%;
+}
 
 .gallery_causes {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-evenly;
     align-items: center;
-    row-gap: 5px;
-}
-
-.gallery_causes img {
-    width: 32%;
-    height: 200px;
 }
 
 @media screen and (min-width: 600px) {
-    .gallery_causes img {
-        width: 24%;
-        height: 225px;
-        row-gap: 10px;
+    .gallery_causes {
+        flex-direction: row;
     }
-}
 
-@media screen and (min-width: 800px) {
-    .gallery_causes img {
-        width: 24%;
-        height: 250px;
+    figure {
+        width: 50%;
+        height: 50%;
     }
 }
 
 @media screen and (min-width: 1000px) {
-    .gallery_causes img {
-        width: 24%;
-        height: 325px;
+    figure {
+        width: 33%;
+        height: 33%;
     }
 }

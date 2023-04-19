@@ -13,12 +13,25 @@ footer {
 }
 
 h1 {
-    font-size:x-large;
+    font-size:xx-large;
     padding: 1%;
+}
+
+h2 {
+    font-size: x-large;
+}
+
+h3 {
+    font-size: large;
 }
 
 p {
     padding: 1%;
+}
+
+figcaption {
+    padding: 1%;
+    text-align: center;
 }
 
 a.active {
@@ -34,8 +47,10 @@ Only there when it is focused on.*/
 }
 
 .skip {
-    background-color: dimgray;
+    background-color: black;
+    color: red;
     position: absolute;
+    padding: 5px;
     height: 100px;
     width: 100px;
     right: -100px;

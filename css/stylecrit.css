@@ -6,13 +6,14 @@ img {
 .gallery_animals {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 5px 5px;
+    gap: 50px 5px;
+    margin-bottom: 50px;
 }
 
 @media screen and (min-width: 600px) {
     .gallery_animals {
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 10px 10px;
+        gap: 50px 10px;
     }
 }
 
@@ -20,4 +21,11 @@ img {
     .gallery_animals {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px 5px;
+    margin-bottom: 50px;
 }
